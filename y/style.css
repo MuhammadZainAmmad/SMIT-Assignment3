@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1150px;
+    margin: 0 auto ;
+}
+a{
+    text-decoration: none;
+}
+.hrOne{
+    width: 50px;
+    border: 1px solid #427900;
+    display: inline-block;
+}
+.logo2{
+    width: 50px;
+}
+
+
+
+
+
+
+
+.fgBrightBlue{
+    color: #1126ea; 
+
+}
+.fgBrightGreen{
+    color: #00ff00;
+}
+.fgWhite{
+    color: #ffffff;
+}
+.fgBlue{
+    color: #316dc3;
+}
+.fgGreen{
+    color: #427900;
+}
+.fgGrey{
+    color: #898989;
+}
+.fgLightGrey{
+    color: rgba(228, 228, 228, 0.87);
+}
+.bgGrey{
+    background-color: #f7f8fa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*topBar*/
+.topBar{
+    background-color: #316dc3;
+    padding: 13px;
+    color: #f2fff5;
+    width: 100%;
+}
+.topBar i{
+    margin: 0 7px;
+    color: #ffffff;
+}
+.social-media{
+    display: inline-block;
+}
+.para{
+    display: inline-block;
+    margin-left: 160px;
+    margin-right: 50px;
+}
+#headButtons a{
+    background-color: #f5f5f5;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 12px;
+}
+.headButtons{
+    border: 1px solid #006618;
+    color: #427900;
+}
+#headButtons{
+    display: inline-block;
+}
+.headButtons:hover{
+    border:1px solid #427900;
+}
+
+
+
+
+
+
+
+/* header */
+.header{
+    padding: 10px 50px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.logo{
+    display: inline-block;
+    margin-right: 280px;
+}
+.nav{
+    display: inline-block;
+}
+
+.logo img{
+    width: 200px;
+    margin: 0;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: inline-block;
+}
+.three , .four{
+    float: left;
+    width: 118px;
+    margin: 0;
+    height: 10px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+.one , .two , .five , .six,.seven{
+    float: left;
+    width: 75px;
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+ul li ul li ul li{
+    display: none;
+}
+ul li ul li{
+    display: none;
+}
+.nav ul li:hover >ul li{
+    display: inline-block;
+    background-color: #ffffff;
+    width: 200px;
+
+}
+
+.nav a{
+    text-decoration: none;    
+    color: #000000;
+    display: block;
+}
+.one {
+    border: 1px solid #316dc3;
+    border-radius: 20px;
+    background-color: #316dc3;
+    color: #ffffff !important; 
+}
+.nav a:hover{
+    border: 1px solid #316dc3;
+    border-radius: 20px;
+    background-color: #316dc3;
+    color: #ffffff;
+}
+.ssSub{
+    display: none;
+    margin-left: 200px;
+    margin-top: 0;
+    padding-left: 2px;
+    vertical-align: top;
+}
+.sssSub{
+    display: none;
+     margin-left: 200px;
+    margin-top: 0;
+    padding-left: 2px;
+}
+
+
+
+.sSub li:hover .ssSub{
+    display: inline-block;
+    border-radius: 0;
+    background-color: #316dc3;
+}
+.sSub:hover li{
+    height: 50px;
+    margin-bottom: 0;
+
+}
+.ssSub li:hover .sssSub{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/* cover photo */
+.cover{
+    width: 100%;
+}
+
+
+/* News */
+.news{
+    background-color: #316dc3;
+    color: white;
+    padding: 7px 0px;
+}
+
+
+
+
+
+
+/* Introduction */
+.introContainer{
+    text-align: center;
+    margin: 0px 200px 0px 200px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.intro  img{
+    margin-top: 3px;
+}
+.intro  h1{
+    margin-bottom: 3px;
+}
+.intropara{
+    text-align: justify;
+    line-height: 1.8em;
+    color: #686868;
+}
+
+
+
+
+
+/* Services */
+#services{
+    background-color: #2755e9;
+    padding: 80px;
+}
+#services div{
+    display: inline-block;
+    text-align: center;
+    width: 290px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.nos{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: cursive;
+    margin: 0px;
+}
+#services > div >img{
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+/* What are we doing */
+.doing{
+    text-align: center;
+    padding: 50px;
+}
+.doing div{
+    display: inline-block;
+    background-color: white;
+    width: 350px;
+    margin: 12px;
+    box-shadow: 10px 10px 10px #dbdcdd;
+    padding: 25px 0;
+}
+
+
+
+
+
+/* Mission and upcoming projects */
+.missionupcoming{
+    padding: 20px 60px;
+    background-color: #ffffff;
+}
+
+.missionDiv{
+    width: 700px;
+}
+
+.project{
+    display: inline-block;
+    width: 700px;
+    vertical-align: top;
+}
+.upcoming{
+    display: inline-block;
+ 
+}
+.upcoming marquee{
+    width: 250px;
+    height: 200px;
+}
+.hrTwo{
+    width: 300px;
+    border: 1px solid #eeeeee;
+    display: inline-block;
+}
+.mission{
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 20px 20px 0;
+}
+.mission img{
+    display: inline-block;
+}
+.mission p{
+    display: inline-block;
+}
+.heading2{
+    margin: 0px;
+}
+.heading2{
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* image gallery */
+#images{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 150px 30px 150px 30px;
+}
+
+#images h1{
+    margin: 10px;
+}
+.heading1{
+    margin-bottom: 20px;
+}
+.images{
+    width: 230px;
+    height: 150px;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    background-color: #25272e;
+    padding: 70px 0;
+}
+
+.numbers,.links,.connect{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+.numbers{
+    color: #b6b6b6;
+    line-height: 25px;
+    font-size: 16px;
+}
+.numbers i{
+    color: #417801;
+}
+.links{
+    font-size: 18px;
+}
+.connect{
+   font-size: 18px;   
+}
+.connect i{
+    color: white;
+    margin-right: 5px;
+    background-color: #316dc3;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.hrThree{
+    width: 300px;
+    border: 1px solid #444444;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+/* copyright */
+.copyright{
+    background-color: #1663f3;
+    color: white;
+    padding: 15px 0;
+    font-size: small;
+    margin: 0px;
+    border: 1px solid black
+}
